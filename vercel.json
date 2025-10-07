@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://56.20204.qzz.io/$1"
+    }
+  ]
+}
