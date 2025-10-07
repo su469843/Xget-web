@@ -165,7 +165,7 @@ function getXgetDomain() {
   }
 
   // Fallback to default domain
-  return "https://xget.xi-xu.me";
+  return "https://56.20204.xyz";
 }
 
 // ============================================================================
