@@ -2,8 +2,12 @@
   "version": 2,
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "https://56.20204.qzz.io/$1"
+      "src": "^/$", // 仅匹配根路径 "/"
+      "dest": "/index.html" // 提供本地的 index.html 文件
+    },
+    {
+      "src": "/(.*)", // 匹配其他所有路径
+      "dest": "https://56.20204.qzz.io/$1" // 代理到目标网址
     }
   ]
 }
