@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "routes": [
+  "rewrites": [
     {
-      "src": "^/$",  "/"
-      "dest": "/index.html" 
+      "source": "/",
+      "destination": "/index.html"
     },
     {
-      "src": "/(.*)", 
-      "dest": "https://56.20204.qzz.io/$1" 
+      "source": "/(.*)",
+      "destination": "https://56.20204.qzz.io/$1"
     }
   ]
 }
+
 
